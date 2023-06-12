@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Se puede almacenar un valor de cualquier tipo dentro de una variable.
+            let mensaje = "Hola";
+            mensaje = 15246;
+            //Tipos de datos
+            // El tipo <<number>> representa tanto números enteros como de punto flotante.
+            let numero = 123;
+            numero = 45.5;
+            // Se pueden realizar distitntas operaciones +,-,* con el tipo de datos number/
+            let a = 5;
+            let b = 3;
+            a + b;
+            a - b;
+            a * b;
+            a / b;
+            
+            // Valores numericos especiales
+            //Infinity
+            alert( 1 / 0 ); // Infinity
+            alert(Infinity);
+            //NaN
+            alert( "no es un número" / 2 ); // NaN, tal división es errónea
+            alert( NaN + 1 ); // NaN
+            alert( 3 * NaN ); // NaN
+            alert( "not a number" / 2 - 1 ); // NaN
+            //BigInt
+            // la "n" al final significa que es un BigInt
+            const bigInt = 1234567890123456789012345678901234567890n;
+            console.log(9007199254740991 + 1); // 9007199254740992
+            console.log(9007199254740991 + 2); // 9007199254740992
+
+            //El tipo <string> representa una cadena de caracteres
+            let str = "Hola";
+            let str2 = 'Las comillas simples también están bien';
+            let frase = `se puede incrustar otro ${str}`;
+            // los backticks
+            let name = "John";
+            // incrustar una variable
+            alert( `Hola, ${name}!` ); // Hola, John!
+            // incrustar una expresión
+            alert( `el resultado es ${1 + 2}` ); //el resultado es 3
+
+            //El tipo <boolean> representa el true o false
+            let esprimo = true;
+            let escompuesto = false;
+
+            //El tipo <null>
+            let edad = null;
+
+            //El tipo <undefined>
+            let num;
+            alert(num); // muestra "undefined"
+            let age = 100;
+
+            // cambiando el valor a undefined
+            age = undefined;
+
+            alert(age); // "undefined"
+
+            //El operador <typeof>
+            typeof undefined // "undefined"
+            typeof 0 // "number"
+            typeof 10n // "bigint"
+            typeof true // "boolean"
+            typeof "foo" // "string"
+            typeof Symbol("id") // "symbol"
+            typeof Math // "object"  (1)
+            typeof null // "object"  (2)
+            typeof alert // "function"  (3)
+        </script>
+        <script>
+            let nom = "Ilya";
+            alert( `Hola ${1}` ); // Hola 1
+            alert( `Hola ${"nom"}` ); // Hola nom
+            alert( `Hola ${nom}` ); // Hola Ilya
+        </script>
+    </body>
+</html>

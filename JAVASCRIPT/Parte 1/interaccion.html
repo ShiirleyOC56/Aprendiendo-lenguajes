@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //muestra un mensaje
+            alert("Hola esto es un alert")
+
+            //muestra un mensaje pidiendo al usuario que introduzca un texto. Retorna el texto o, si se hace clic en CANCELAR o se presiona Esc, retorna null.
+            //result = prompt(title, [default]); default es opcional
+            let age = prompt ('¿Cuántos años tienes?', 100);
+            alert(`Tienes ${age} años! y esto es usando un prompt`); //Tienes 100 años!
+            //muestra un mensaje y espera a que el usuario pulse “OK” o “CANCELAR”. Retorna true si se presiona OK y false si se presiona CANCEL/Esc.
+            //result = confirm(pregunta);
+            let isBoss = confirm("¿Eres el jefe?");
+            alert( isBoss ); // true si se pulsa OK
+        </script>
+        <script>
+            //TAREA: Crea una página web que pida un nombre y lo muestre.
+            let nombre = prompt('¿Cual es tu nombre?');
+            alert(`Tu nombre es ${nombre}`)
+        </script>
+    </body>
+</html>

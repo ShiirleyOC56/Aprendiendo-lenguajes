@@ -44,3 +44,53 @@ Revisar [variables](https://es.javascript.info/variables):
 ### Tareas
 * tarea_variable.html
 
+## Tipos de datos
+Revisar [Tipos](https://es.javascript.info/types):
+- [x] Se puede almacenar un valor de cualquier tipo dentro de una variable.
+- [x] El tipo `number` representa tanto números enteros como de punto flotante.
+- [x] Hay muchas operaciones para números *,+,-,/.
+- [x] Existen los llamados “valores numéricos especiales” que también pertenecen a este tipo de datos: Infinity, -Infinity y NaN.
+    * `Infinity` -> representa el Infinito matemático \∞. Es un valor especial que es mayor que cualquier número.
+    * `NaN` -> representa un error de cálculo. Es el resultado de una operación matemática incorrecta o indefinida.
+    * `BigInt`se agregó recientemente al lenguaje para representar enteros de longitud arbitraria.
+- [x] El tipo `string`-> representa una cadena de caracteres y debe colocarse entre comillas.
+- [x] Hay 3 tipos de comillas: "hola", 'hola' no hay ninguna diferencia, pero ` hola ` , los backticks son comillas de “funcionalidad extendida”. Permiten incrustar variables y expresiones en una cadena de caracteres encerrándolas en `${...}`.
+- [x] El tipo `boolean` -> solo tiene dos valores True y False.
+- [x] El tipo `null` -> representa “nada”, “vacío” o “valor desconocido”.
+- [x] El tipo especial `undefined` -> representa a “valor no asignado”.
+- [x] El operador `typeof` devuelve el tipo de dato del operando.
+
+### Archivos adjuntos
+* tipo_datos.html
+
+### Tareas
+* tipo_datos.html
+
+## Interacción: alert, prompt, confirm 
+Revisar [interaccion](https://es.javascript.info/alert-prompt-confirm):
+
+- [x] `alert` muestra un mensaje en pantalla y espera la confirmacion del usuario.
+- [x] `prompt` acepta dos argumentos.
+    * title -> El texto a mostrar al usuario.
+    * default -> Un segundo parámetro opcional, es el valor inicial del campo de entrada.
+- [x] `confirm` -> muestra una ventana modal con una pregunta y dos botones: OK y CANCELAR.
+
+### Archivos adjuntos y tarea
+* interaccion.html
+
+## Conversion de tipos
+Revisar [conversion](https://es.javascript.info/type-conversions)
+
+- [x] Para convertir a string se usa `String(value)`.
+- [x] Para convertir a numero ocurre automáticamente en funciones matemáticas y expresiones, se puede usar `Number(value)`.
+- [x] Adición ‘+’ concatena strings.
+- [x] Para convertir un booleano se usa `Boolean(value)`
+
+## Archivos adjuntos
+* conversion.html
+
+## Operadores básicos, matemáticas
+Revisar [operadores]():
+- [x] Un operador es unario si tiene un solo operando.
+- [x] Un operador es binario si tiene dos operandos.
+- [x] Operadores matematicas, +, *, /, -, %, **
