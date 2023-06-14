@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            /*TAREA 1: Las formas sufijo y prefijo: ¿Cuáles son los valores finales de todas las variables a, b, c y d después del código a continuación?*/
+            let a = 1, b = 1;
+            let c = ++a; // 2
+            let d = b++; // 2
+            //solucion
+            let aa = 1, bb = 1;
+
+            alert( ++aa ); // 2, la forma de prefijo devuelve el nuevo valor
+            alert( bb++ ); // 1, la forma de sufijo devuelve el antiguo valor
+
+            alert( aa ); // 2, incrementado una vez
+            alert( bb ); // 2, incrementado una vez
+
+            /*TAREA 2: Resultado de asignación: ¿Cuáles son los valores de ‘a’ y ‘x’ después del código a continuación?*/
+            let e = 2;
+            let x = 1 + (e *= 2); // x = 5 y e = 4
+
+            /*TAREA 3: Conversiones de tipo: ¿Cuáles son los resultados de estas expresiones?*/
+            "" + 1 + 0 // "10" OK
+            "" - 1 + 0 //-1 OK
+            true + false // 1 OK
+            6 / "3" // 2 OK
+            "2" * "3" //6 OK
+            4 + 5 + "px" //"9px" OK
+            "$" + 4 + 5 //"$45" OK
+            "4" - 2 // 2 OK
+            "4px" - 2 // ? ES NAN
+            "  -9  " + 5 //"   -9  5" OK
+            "  -9  " - 5 // ES 14 
+            null + 1 // null ES 1
+            undefined + 1 //  ES NAN
+            " \t \n" - 2 // -2
+        </script>
+    </body>
+</html>

@@ -90,7 +90,25 @@ Revisar [conversion](https://es.javascript.info/type-conversions)
 * conversion.html
 
 ## Operadores básicos, matemáticas
-Revisar [operadores]():
-- [x] Un operador es unario si tiene un solo operando.
-- [x] Un operador es binario si tiene dos operandos.
-- [x] Operadores matematicas, +, *, /, -, %, **
+Revisar [operadores](https://es.javascript.info/operators):
+ - [x] Un operador es unario si tiene un solo operando.
+ - [x] Un operador es binario si tiene dos operandos.
+ - [x] Operadores matematicas, +, *, /, -, %, **.
+ - [x] Con el binario + se puede concatenar cadenas.
+ - [x] Con el binario + se puede hacer conversion numerica.
+ - [x] Asignación = devuelve un valor
+ - [x] Se pueden realizar asignaciones encadenadas.
+ - [x] Se puede realizar decremento/incremento.
+ - [x] Los operadores a nivel bit tratan los argumentos como números enteros de 32 bits y trabajan en el nivel de su representación binaria.
+	 -  AND (  `&`  )
+	-   OR (  `|`  )
+	-   XOR (  `^`  )
+	-   NOT (  `~`  )
+	-   LEFT SHIFT (  `<<`  )
+	-   RIGHT SHIFT (  `>>`  )
+	-   ZERO-FILL RIGHT SHIFT (  `>>>`  )
+ - [x] El operador coma nos permite evaluar varias expresiones, dividiéndolas con una coma `,`. Cada una de ellas es evaluada, pero sólo el resultado de la última es devuelto.
+ 
+## Archivos adjuntos y tarea
+ - operadores.html
+ - operadores_tarea.html

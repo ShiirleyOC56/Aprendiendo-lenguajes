@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Operador unario
+            let x = 1;
+            x = -x;
+            alert( x ); // -1, se aplicó negación unaria
+            //Operador binario
+            let a = 1, y = 3;
+            alert( y - a ); // 2, binario negativo resta valores
+            //Resto %
+            alert( 5 % 2 ); // 1, es el resto de 5 dividido por 2
+            alert( 8 % 3 ); // 2, es el resto de 8 dividido por 3
+            alert( 8 % 4 ); // 0, es el resto de 8 dividido por 4
+            //Potenciacion **
+            alert( 2 ** 2 ); // 2² = 4
+            alert( 2 ** 3 ); // 2³ = 8
+            alert( 2 ** 4 ); // 2⁴ = 16
+        </script>
+
+        <script>
+            //Concatenacion con el operador  binario +
+            let s = "my" + "string";
+            alert(s); // mystring
+            alert( '1' + 2 ); // "12"
+            alert( 2 + '1' ); // "21"
+            alert(2 + 2 + '1' ); // "41" y no "221"
+
+            //Conversión numérica, unario +
+            // Sin efecto en números
+            let x = 1;
+            alert( +x ); // 1
+
+            let y = -2;
+            alert( +y ); // -2
+
+            // Convierte los no números
+            alert( +true ); // 1
+            alert( +"" );   // 0
+            let apples = "2";
+            let oranges = "3";
+
+            // ambos valores convertidos a números antes del operador binario suma
+            alert( +apples + +oranges ); // 5
+
+            // la variante más larga
+            // alert( Number(apples) + Number(oranges) ); // 5
+
+            // Asignacion = devuelve un valor 
+            let a = 1;
+            let b = 2;
+
+            let c = 3 - (a = b + 1);
+
+            alert( a ); // 3
+            alert( c ); // 0
+
+            //Asignaciones encadenadas
+            let aa, bb, cc;
+
+            aa = bb = cc = 2 + 2;
+
+            alert( aa ); // 4
+            alert( bb ); // 4
+            alert( cc ); // 4
+
+            let n = 2;
+            n += 5; // ahora n = 7  (es lo mismo que n = n + 5)
+            n *= 2; // ahora n = 14 (es lo mismo que n = n * 2)
+
+            alert( n ); // 14
+            // Incremento en un0
+            let counter = 2;
+            counter++;      // funciona igual que counter = counter + 1, pero es más corto
+            alert( counter ); // 3
+            // Decremento en uno
+            let counteri = 2;
+            counteri--;      // funciona igual que counter = counter - 1, pero es más corto
+            alert( counteri ); // 1
+            //Coma 
+            let aaa = (1 + 2, 3 + 4);
+            alert( aaa ); // 7 (el resultado de 3 + 4)
+        </script>
+    </body>
+</html>
