@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let a = 5;
+            let b = 8;
+            alert(a>b);// false
+            alert(a<b);//true
+            alert(a==b);//false
+            alert(a!=b);//true
+            //operador estricto === sin conversion de datos
+            alert( 0 === false ); // falso, porque los tipos son diferentes
+            
+            /* TAREA */
+            //¿Cuál será el resultado de las siguientes expresiones?
+            5 > 4 //TRUE
+            "apple" > "pineapple" // FALSE
+            "2" > "12" //trUE
+            undefined == null//TRUE
+            undefined === null//FALSE
+            null == "\n0\n" // FALSE
+            null === +"\n0\n" // FALSE
+            /*Algunas de las razones:
+
+Obviamente, true.
+Comparación lexicográfica, por lo tanto false. "a" es menor que "p".
+Una vez más, la comparación lexicográfica, el primer carácter de "2" es mayor que el primer carácter de "1".
+Los valores null y undefined son iguales entre sí solamente.
+La igualdad estricta es estricta. Diferentes tipos de ambos lados conducen a false.
+Similar a (4), null solamente es igual a undefined.
+Igualdad estricta de diferentes tipos.*/
+
+        </script>
+    </body>
+</html>

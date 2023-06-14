@@ -109,6 +109,19 @@ Revisar [operadores](https://es.javascript.info/operators):
 	-   ZERO-FILL RIGHT SHIFT (  `>>>`  )
  - [x] El operador coma nos permite evaluar varias expresiones, dividiéndolas con una coma `,`. Cada una de ellas es evaluada, pero sólo el resultado de la última es devuelto.
  
-## Archivos adjuntos y tarea
+### Archivos adjuntos y tarea
  - operadores.html
  - operadores_tarea.html
+
+## Comparaciones
+Revisar [comparaciones](https://es.javascript.info/comparison):
+
+ - [x]   Mayor/menor que:  `a > b`,  `a < b`.
+ -   [x] Mayor/menor o igual que:  `a >= b`,  `a <= b`.
+ -   [x] Igual:  `a == b`  (ten en cuenta que el doble signo  `==`  significa comparación, mientras que un solo símbolo  `a = b`  significaría una asignación).
+ -  [x] Distinto. En matemáticas la notación es  `≠`, pero en JavaScript se escribe como una asignación con un signo de exclamación delante:  `a != b`.
+ - [x] Tambien se puede comparar cadenas.
+ - [x] Compara valores de diferentes tipos, JavaScript convierte los valores a números.
+ - [x] Un operador de igualdad estricto  `===`  comprueba la igualdad sin conversión de tipo.
+### Archivos adjuntos y tareas
+ - comparacion.html
