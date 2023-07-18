@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Sentencia IF</h1>
+        <code>
+            let año = prompt('En que año estamos: ')
+            if(año == 2023){
+                alert("Estamos en el año",año)
+            }
+        </code>
+        <script>
+            let año = prompt('En que año estamos: ','')
+            if(año == 2023){
+                alert(`Estamos en el año ${año}`)
+            }
+        </script>
+        <h1> Clausula Else</h1>
+        <code>let year = prompt('¿En qué año fue publicada la especificación ECMAScript-2015?', '');
+
+            if (year == 2015) {
+            alert( '¡Lo adivinaste, correcto!' );
+            } else {
+            alert( '¿Cómo puedes estar tan equivocado?' ); // cualquier valor excepto 2015
+            }</code>
+        <script>
+            let year = prompt('¿En qué año fue publicada la especificación ECMAScript-2015?', '');
+
+            if (year == 2015) {
+            alert( '¡Lo adivinaste, correcto!' );
+            } else {
+            alert( '¿Cómo puedes estar tan equivocado?' ); // cualquier valor excepto 2015
+            }
+        </script>
+        <h1>Muchas condicionales "else if"</h1>
+        <script>
+            let anio = prompt('¿En qué año fue publicada la especificación ECMAScript-2015?', '');
+
+            if (anio < 2015) {
+                alert( 'Muy poco...' );
+            } else if (anio > 2015) {
+                alert( 'Muy Tarde' );
+            } else {
+                alert( '¡Exactamente!' );
+            }
+        </script>
+        <h1>Operador ternario ‘?’</h1>
+        <code>let result = condition ? value1 : value2;</code>
+        <script>
+            let accessAllowed;
+            let age = prompt('¿Qué edad tienes?', '');
+
+            if (age > 18) {
+            accessAllowed = true;
+            } else {
+            accessAllowed = false;
+            }
+
+            alert(accessAllowed);
+            let resultado = (age > 18) ? true : false;
+            // let resultado = age > 18 ? true : false;
+        </script>
+        <h1>Tarea</h1>
+        <script>
+            /*Usando el constructor if..else, escribe un código que obtenga a través de un prompt un número y entonces muestre en un alert:
+
+            1, si el valor es mayor que cero,
+            -1, si es menor que cero,
+            0, si es igual a cero.
+            En la tarea asumimos que siempre el usuario introduce un número.
+
+            */
+
+            let numero = prompt('Escriba un numero:','');
+            if(numero>0){
+                alert("El numero es mayor que cero")
+            }else if(numero < 0){
+                alert("El numero es menor a 0")
+            }else{
+                alert("El numero es igual a 0")
+            }
+        </script>
+        <script>
+            /*let result;
+
+            if (a + b < 4) {
+            result = 'Debajo';
+            } else {
+            result = 'Encima';
+            }
+            */
+           let a = 5;
+           let b = 4;
+           let result = (a+b<4) ? 'Debajo':'Encima';
+           let mensaje = (login == 'Empleado') ? 'Hola' : (login == 'Director') ? 'Felicidades' : (login == '') ? 'Sin sesion' : '';
+        </script>
+    </body>
+</html>
