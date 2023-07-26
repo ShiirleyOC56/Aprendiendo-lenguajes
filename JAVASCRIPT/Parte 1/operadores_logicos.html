@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            /*¿Cuál es el resultado de OR?*/
+            alert( null || 2 || undefined );//La respuesta es 2 es el primer valor verdadero.
+
+            /*¿Cuál es el resultado de las alertas aplicadas al operador OR?*/
+            alert( alert(1) || 2 || alert(3) ); //primero 1 y luego dos
+
+            //EXPLICACION
+            /*La llamada a alert no retorna un valor. O, en otras palabras, retorna undefined.
+
+                El primer OR || evalúa el operando de la izquierda alert(1). Eso muestra el primer mensaje con 1.
+                El alert retorna undefined, por lo que OR se dirige al segundo operando buscando un valor verdadero.
+                El segundo operando 2 es un valor verdadero, por lo que se detiene la ejecución, se retorna 2 y es mostrado por el alert exterior.
+                No habrá 3 debido a que la evaluación no alcanza a alert(3).*/
+            /*Comprueba el rango por dentro
+            importancia: 3
+            Escribe una condición “if” para comprobar que age(edad) está entre 14 y 90 inclusive.
+
+            “Inclusive” significa que age puede llegar a ser uno de los extremos, 14 o 90.*/
+
+            let age = prompt("Ingresa una edad",'');
+
+            if (age >= 14 && age <= 90){
+                alert("Usted entre 14 y 90 años")
+            }
+
+            let usuario = prompt("Ingrese nombre de usuario: ",'');
+            if(usuario == "Admin"){
+                let contrasenia = prompt("Escribe la contraseña",'');
+                if (contrasenia === "TheMaster"){
+                    alert("Bienvenido")
+                }else if(contrasenia === "" || contrasenia === null){
+                    alert("Cancelado");
+                }else{
+                    alert("Contraseña  incorrecta");
+                }
+            }else if(usuario === "" || usuario === null){
+                alert("Cancelado");
+            }else{
+                alert("No te conozco");
+            }
+        </script>
+
+    </body>
+</html>

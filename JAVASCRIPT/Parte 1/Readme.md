@@ -125,3 +125,25 @@ Revisar [comparaciones](https://es.javascript.info/comparison):
  - [x] Un operador de igualdad estricto  `===`  comprueba la igualdad sin conversión de tipo.
 ### Archivos adjuntos y tareas
  - comparacion.html
+
+## Condiciones if, if-else, if -else if - else
+Revisar [condicionales](https://es.javascript.info/ifelse):
+
+-[x] La sentencia if(...) evalúa la condición en los paréntesis, y si el resultado es verdadero (true), ejecuta un bloque de código.
+-[x] La sentencia if puede contener un bloque else (“si no”, “en caso contrario”) opcional. Este bloque se ejecutará cuando la condición sea falsa.
+-[x] El operador ternario "?", tiene tres operandos, es el único operador de JavaScript que tiene esa cantidad.
+-[x] El operador ternario se puede usar recursivamente.
+
+### Archivos adjuntos
+- condicional_if.html
+
+## Operadores logicos
+Revisar [operadores logico](https://es.javascript.info/logical-operators):
+
+- El operador OR se representa con dos símbolos de linea vertical -> `result = a || b;`
+- El operador AND es representado con dos ampersands && ->`result = a && b;`
+- El operador booleano NOT se representa con un signo de exclamación ! -> `result = !value;`
+  
+### Archivos adjuntos
+- operadores_logicos.html
+
