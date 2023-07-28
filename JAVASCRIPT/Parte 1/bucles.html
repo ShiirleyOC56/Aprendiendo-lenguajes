@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+<script>
+    /* SINTAXIS DE WHILE*/
+    while (condition) {
+    // código
+    // llamado "cuerpo del bucle"
+    }
+
+    /*SINTAXIX DO ...WHILE*/
+    do {
+    // cuerpo del bucle
+    } while (condition);
+
+    /*SINTAXIS FOR */
+    for (begin; condition; step) { // (comienzo, condición, paso)
+    // ... cuerpo del bucle ...
+    }
+
+    /* USO DEL BREAK */
+    let sum = 0;
+
+    while (true) {
+
+        let value = +prompt("Ingresa un número", '');
+
+        if (!value) break; // (*)
+
+        sum += value;
+
+    }
+    alert( 'Suma: ' + sum );
+
+    /* USO DEL CONTINUE */ 
+    for (let i = 0; i < 10; i++) {
+
+        // si es verdadero, saltar el resto del cuerpo
+        if (i % 2 == 0) continue;
+
+        alert(i); // 1, luego 3, 5, 7, 9
+    }
+
+    /* ETIQUETAS CONTINUE/BREAK*/
+
+    //sintaxis
+    labelName: for (...) {
+    ...
+    }
+    outer: for (let i = 0; i < 3; i++) {
+
+        for (let j = 0; j < 3; j++) {
+
+            let input = prompt(`Value at coords (${i},${j})`, '');
+
+            // Si es una cadena de texto vacía o se canceló, entonces salir de ambos bucles
+            if (!input) break outer; // (*)
+
+            // hacer algo con el valor...
+        }
+    }
+
+    alert('Listo!');
+
+    //En el código de arriba, break outer mira hacia arriba por la etiqueta llamada outer y nos saca de dicho bucle.
+
+    
+
+</script>
+
+</body>
+
+</html>

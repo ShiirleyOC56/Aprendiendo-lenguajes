@@ -147,3 +147,35 @@ Revisar [operadores logico](https://es.javascript.info/logical-operators):
 ### Archivos adjuntos
 - operadores_logicos.html
 
+## Operador Nullish Coalescing '??'
+ Revisar (Nullish Coalescing)[https://es.javascript.info/nullish-coalescing-operator]:
+ - El operador “nullish coalescing” (fusión de null) se escribe con un doble signo de cierre de interrogación ??.
+
+- Muestra el primer valor definido. Es decir, ?? devuelve el primer argumento cuando este no es null ni undefined. En caso contrario, devuelve el segundo
+- A Comparación con || or, la gran diferencia es que:
+
+  - || devuelve el primer valor verdadero.
+  - ?? devuelve el primer valor definido.
+- Es usado para asignar valores por defecto a las variable.
+
+### Archivos Adjuntos
+- nullish.html
+
+## Bucles: While y for
+Revisar(bucles)[https://es.javascript.info/while-for]:
+
+- Usamos esto para repetir acciones.
+- Se puede forzar una salida en cualquier momento usando la directiva especial break.
+- La directiva continue es una “versión más ligera” de break. No detiene el bucle completo. En su lugar, detiene la iteración actual y fuerza al bucle a comenzar una nueva (si la condición lo permite).
+- Etiquetas para break/continue, Una etiqueta es un identificador con un signo de dos puntos “:” antes de un bucle
+
+### Archivos adjuntos:
+- bucles.hmtl
+
+
+
+   
+    
+	 
+
+

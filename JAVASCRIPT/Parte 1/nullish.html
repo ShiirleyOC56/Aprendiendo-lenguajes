@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+<script>
+    let user;
+    alert(user??"anonimo"); // como resultado da anonimo
+
+    let user1 = "Ana";
+    alert(user1??"anonimo0"); //como resultado dara Ana ya que esta definido
+
+    let a;
+    let b;
+    let c;
+    let d = "hola";
+
+    alert(a ?? b ?? c ?? d ?? "mundo"); // como resultado da "hola"
+    /* Comparando con or*/
+    let height = 0; // altura cero
+
+    alert(height || 100); // 100
+    alert(height ?? 100); // 0
+    
+</script>
+
+</body>
+
+</html>
