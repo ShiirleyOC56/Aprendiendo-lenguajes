@@ -69,6 +69,62 @@
     
 
 </script>
+<script>
+    // EJERCICIO 1
+   // ¿Cuál es el último valor mostrado en alerta por este código? ¿Por qué?
+   let i = 3;
+
+    while (i) {
+        alert( i-- );
+    }
+    // primera iteracion: i = 3, existe, entonces i disminuye, i ahora vale 2
+    // segunda iteracion i =2, existe, entonces i disminuye, i ahora vale 1
+    // tercera iteracion i = 1, existe, entonces i disminuye, i ahora vale 0
+    // cuarta iteracion i = 0, no existe, entonces se sale del bucle.
+
+    //EJERCICIO 2
+    //Para cada iteración del bucle, escribe qué valor será impreso y luego compáralo con la solución.
+    //Ambos bucles ¿alertan los mismos valores?
+
+    let j = 0;
+    while (++j < 5) alert( i );
+    //primera iteracion i = 0, i aumenta en 1, entonces i = 1, 1<5, imprime 1
+    //segunda iteracion i = 1, i aumenta en 1, entonces i = 2, 2<5, imprime 2
+    //tercera iteracion i = 2, i aumenta en 1, entonces i = 3, 3<5, imprime 3
+    //cuarta iteracion i = 3, i aumenta en 1, entonces i = 4, 4<5, imprime 4
+    //quinta iteracion i = 4, i aumenta en 1, entonces i = 5, 5<5,sale del bucle
+
+    //EJERCICIO 3
+    for (let i = 0; i < 5; i++) alert( i );
+    // i = 0, si, imprimimos 0, aumentas en 1, entonces i = 1
+    // i = 1, si, imprimimos 1, aumentamos en 1, entonces i = 2
+    // i = 2, si, imprimimos 2, aumentamos en 1, entonces i = 3
+    // i = 3, si, imprimimos 3, amunetamos en 1, entonces i = 4
+    // i 0 4, si, imprimimos 4, aumentamos en 1, entonces i = 5
+    // i =5, no, sale del bucle
+    for (let i = 0; i < 5; ++i) alert( i );
+    //EJERCICIO 4
+    //Usa el bucle for para mostrar números pares del 2 al 10.
+
+    for (let i = 2;i<= 10; i++){
+        if (i%2==0){
+            alert(i)
+        }
+    }
+
+    //EJERCICIO 5
+    //Reescribe el código cambiando el bucle for a while sin alterar su comportamiento (la salida debería ser la misma).
+    for (let i = 0; i < 3; i++) {
+        alert( `número ${i}!` );
+    }
+    let k = 0;
+    while(k<3){
+        alert( `número ${k}!` );
+        k++;
+    }
+
+    
+</script>
 
 </body>
 
