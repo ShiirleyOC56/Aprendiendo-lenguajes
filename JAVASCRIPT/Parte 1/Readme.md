@@ -182,6 +182,15 @@ Revisar(switch)[https://es.javascript.info/switch]:
 ### Archivos adjuntos
 - switch.js
 
+## Funciones
+Revisar (funciones)[https://es.javascript.info/function-basics]:
+- Las funciones son los principales “bloques de construcción” del programa. Permiten que el código se llame muchas veces sin repetición.
+- Una variable declarada dentro de una función solo es visible dentro de esa función.
+- Una función también puede acceder a una variable externa.
+- Podemos pasar datos arbitrarios a funciones usando parámetros..
+- Si una función es llamada, pero no se le proporciona un argumento, su valor correspondiente se convierte en undefined.
+- La directiva return puede estar en cualquier lugar de la función.
+
 
 
    
