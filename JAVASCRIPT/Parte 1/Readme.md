@@ -172,6 +172,16 @@ Revisar(bucles)[https://es.javascript.info/while-for]:
 ### Archivos adjuntos:
 - bucles.hmtl
 
+## La sentencia switch
+Revisar(switch)[https://es.javascript.info/switch]:
+- Una sentencia switch puede reemplazar múltiples condiciones if.
+- switch tiene uno o mas bloques casey un opcional default.
+- Si no existe break entonces la ejecución continúa con el próximo case sin ninguna revisión.
+- Los valores deben ser del mismo tipo para coincidir.
+
+### Archivos adjuntos
+- switch.js
+
 
 
    
