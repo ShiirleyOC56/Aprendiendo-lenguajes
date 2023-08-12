@@ -191,6 +191,16 @@ Revisar (funciones)[https://es.javascript.info/function-basics]:
 - Si una función es llamada, pero no se le proporciona un argumento, su valor correspondiente se convierte en undefined.
 - La directiva return puede estar en cualquier lugar de la función.
 
+### Archivos adjuntos
+- funciones.js
+  
+### Nomenclatura de funciones
+- show - muestra un valor
+- "get…" – devuelven un valor,
+- "calc…" – calculan algo,
+- "create…" – crean algo,
+- "check…" – revisan algo y devuelven un boolean, etc.
+
 
 
    
