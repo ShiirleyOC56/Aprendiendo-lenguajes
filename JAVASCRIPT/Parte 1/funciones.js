@@ -65,3 +65,20 @@ getAge(..)          // devuelve la edad (la obtiene de alguna manera)
 calcSum(..)         // calcula una suma y devuelve el resultado
 createForm(..)      // crea un formulario (y usualmente lo devuelve)
 checkPermission(..) // revisa permisos, y devuelve true/false
+
+/* TAREAS */
+
+// Reescribe la función utilizando '?' o '||'
+function checkAge(age) {
+    if (age > 18) {
+      return true;
+    } else {
+      return confirm('¿Tienes permiso de tus padres?');
+    }
+}
+
+let resul = age > 18 ? true : confirm("¿Tienes permiso de tus padres?");
+
+function checkAge1(age) {
+    return (age > 18) || confirm('¿Tus padres te lo permitieron?');
+  }
