@@ -82,3 +82,28 @@ let resul = age > 18 ? true : confirm("¿Tienes permiso de tus padres?");
 function checkAge1(age) {
     return (age > 18) || confirm('¿Tus padres te lo permitieron?');
   }
+//Funcion min(a,b)
+
+function min(a,b){
+    return a < b ? a:b;
+}
+
+//Funcion pow(x,n)
+
+function pow(x,n){
+  let resultado=x;
+  
+  for(let i = 0;i<n;i++){
+    resultado *=x;
+  }
+  return resultado;
+}
+
+let x = prompt("x",'');
+let n = prompt("n",'');
+
+if(n<1){
+    alert("Potentcia ${n} no debe ser menor a 1");
+}else{
+    alert(pow(x,n));
+}

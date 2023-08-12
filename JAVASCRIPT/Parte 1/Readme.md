@@ -193,6 +193,7 @@ Revisar (funciones)[https://es.javascript.info/function-basics]:
 
 ### Archivos adjuntos
 - funciones.js
+- expresionesFunciones.js
   
 ### Nomenclatura de funciones
 - show - muestra un valor
