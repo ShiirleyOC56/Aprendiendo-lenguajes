@@ -183,17 +183,22 @@ Revisar(switch)[https://es.javascript.info/switch]:
 - switch.js
 
 ## Funciones
-Revisar (funciones)[https://es.javascript.info/function-basics]:
+Revisar (funciones)[https://es.javascript.info/function-basics].
+Revisar (expresiones de funciones)[https://es.javascript.info/function-expressions].
+Revisar (funciones flecha)[]
 - Las funciones son los principales “bloques de construcción” del programa. Permiten que el código se llame muchas veces sin repetición.
 - Una variable declarada dentro de una función solo es visible dentro de esa función.
 - Una función también puede acceder a una variable externa.
 - Podemos pasar datos arbitrarios a funciones usando parámetros..
 - Si una función es llamada, pero no se le proporciona un argumento, su valor correspondiente se convierte en undefined.
 - La directiva return puede estar en cualquier lugar de la función.
+- *Las funciones flecha es otra sintaxis muy simple y concisa para crear funciones, que a menudo es mejor que las Expresiones de funciones.*
+- Tambie se puede usar funciones flecha multilinea.
 
 ### Archivos adjuntos
 - funciones.js
 - expresionesFunciones.js
+- funcionesflecha.js
   
 ### Nomenclatura de funciones
 - show - muestra un valor
@@ -202,7 +207,48 @@ Revisar (funciones)[https://es.javascript.info/function-basics]:
 - "create…" – crean algo,
 - "check…" – revisan algo y devuelven un boolean, etc.
 
+## Especiales de javascript
+Para finalizar la parte 1, en donde se vio lo basica de javascript.
 
+Algunos detalles relevantes:
+
+### use strict
+- Para habilitar completamente todas las características de JavaScript moderno, debemos comenzar los scripts con "use strict".
+- Sin la directiva "use strict" todo sigue funcionando, pero algunas características se comportan de la manera antigua y “compatible”. 
+
+### Variable
+Se pueden declarar usando:
+
+- let
+- const (constante, no se puede cambiar)
+- var (estilo antiguo, lo veremos más tarde)
+- 
+Un nombre de variable puede incluir:
+
+- Letras y dígitos, pero el primer carácter no puede ser un dígito.
+- Los caracteres $ y _ son normales, al igual que las letras.
+- Los alfabetos y jeroglíficos no latinos también están permitidos, pero comúnmente no se usan
+
+Hay 8 tipos de datos:
+
+- **number** tanto para números de punto flotante como enteros,
+- **bigint** para números enteros de largo arbitrario,
+- **string** para textos,
+- **boolean** para valores lógicos: true/false,
+- **null** – un tipo con el valor único null, que significa “vacío” o “no existe”,
+- **undefined** – un tipo con el valor único undefined, que significa “no asignado”,
+- **object y symbol** – para estructuras de datos complejas e identificadores únicos, aún no los hemos aprendido.
+
+**Nota: El operador typeof devuelve el tipo de un valor, con dos excepciones**
+
+### Interacción
+Estamos utilizando un navegador como entorno de trabajo, por lo que las funciones básicas de la interfaz de usuario serán:
+
+- prompt(question, [default]): Hace una pregunta question, y devuelve lo que ingresó el visitante o null si presiona “cancelar”.
+- confirm(question): Hace una pregunta question, y sugiere elegir entre Aceptar y Cancelar. La elección se devuelve como booleano true/false.
+- alert(message): Muestra un message.
+
+**Nota: Todas estas funciones son modales, pausan la ejecución del código y evitan que el visitante interactúe con la página hasta que responda.**
 
    
     
