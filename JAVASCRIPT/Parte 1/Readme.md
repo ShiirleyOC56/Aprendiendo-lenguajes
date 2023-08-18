@@ -1,4 +1,4 @@
-# Aprendiendo Javascript
+# Aprendiendo Javascript - Parte 1
 
 ## Fundamentos de Javascript
 ## Hola mundo!
