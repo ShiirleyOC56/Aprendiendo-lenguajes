@@ -30,4 +30,12 @@ Archivos adjuntos:
 - Pero generalmente, se tiene que intentar mantener el código simple y auto descriptivo.
 - Existen herramientas como JSDoc 3 que pueden generar documentación en formato HTML de los comentarios.
 
+### Test automatizados con Mocha
+- Se escribe una especificación inicial, con tests para la funcionalidad más básica.
+Se crea Una implementación inicial.
+Para comprobar que funciona, ejecutamos el framework de test Mocha (detallado más adelante) que ejecuta la “spec”. Mostrará los errores mientras la funcionalidad no esté completa. Hacemos correcciones hasta que todo funciona.
+Ahora tenemos una implementación inicial con tests.
+Añadimos más casos de uso a la spec, seguramente no soportados aún por la implementación. Los tests empiezan a fallar.
+Ir a 3, actualizar la implementación hasta que los tests no den errores.
+Se repiten los pasos 3-6 hasta que la funcionalidad esté lista.
 
