@@ -39,3 +39,15 @@ Añadimos más casos de uso a la spec, seguramente no soportados aún por la imp
 Ir a 3, actualizar la implementación hasta que los tests no den errores.
 Se repiten los pasos 3-6 hasta que la funcionalidad esté lista.
 
+### Test automatizados con Moccha
+- Mocha – el framework central: provee funciones para test comunes como describe e it y la función principal que ejecuta los tests.
+- Chai – una librería con muchas funciones de comprobación (assertions). Permite el uso de diferentes comprobaciones. De momento usaremos assert.equal.
+- Sinon – una librería para espiar funciones, emular funciones incorporadas al lenguaje y más. La necesitaremos a menudo más adelante.
+- Esa descripción es llamada especificación o “spec” y contiene las descripciones de uso junto con los test para probarlas.Un spec tiene tres bloques principales, mostrados abajo:
+  - describe("titulo", function() { ... }): ¿Qué funcionalidad estamos describiendo?
+  - it("titulo", function() { ... }): En el título de it introducimos una descripción legible del caso de uso. El segundo argumento es la función que testea eso.
+  - assert.equal(value1, value2): el código dentro del bloque it que, si la implementación es correcta, debe ejecutar sin errores.
+- Las funciones assert.* son usadas para comprobar que pow funcione como esperamos. Aquí mismo utilizamos una de ellas: assert.equal, que compara argumentos y produce un error si los mismos no son iguales.
+
+
+
