@@ -49,5 +49,15 @@ Se repiten los pasos 3-6 hasta que la funcionalidad esté lista.
   - assert.equal(value1, value2): el código dentro del bloque it que, si la implementación es correcta, debe ejecutar sin errores.
 - Las funciones assert.* son usadas para comprobar que pow funcione como esperamos. Aquí mismo utilizamos una de ellas: assert.equal, que compara argumentos y produce un error si los mismos no son iguales.
 
+### Polyfills y transpiladores
+
+**¿cómo hacer que nuestro código moderno funcione en intérpretes más viejos que aún no entienden las características más nuevas?**
+
+- Un transpilador es un software que traduce un código fuente a otro código fuente. 
+- Un script que actualiza o agrega funciones nuevas es llamado “polyfill”. Este llena los vacíos agregando las implementaciones que faltan.
+- Dos librerías interesantes de polyfills son:
+  - core js – da muchísimo soporte, pero permite que se incluyan solamente las características necesitadas.
+  - polyfill.io – servicio que brinda un script con polyfills dependiendo de las características del navegador del usuario.
+
 
 
