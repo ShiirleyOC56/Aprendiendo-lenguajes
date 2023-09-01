@@ -32,3 +32,63 @@ let userF = {
 userF["likes birds"] = true;// asignando
 alert(userF["likes birds"]); // obteniendo el valor
 delete userF["likes birds"];
+
+//ATAJO DE PROPIEDADES}
+function makeUser(name, age) {
+    return {
+        name: name,
+        age: age,
+        //otras propiedades
+    };
+}
+
+let usuario = makeUser("AlceaXich",20);
+alert(usuario.name); // AlceaXich
+
+//---------------------------
+function makeUser2(name, age, surname){
+    return {
+        name,
+        age,
+        surname: "Xich",
+    };
+}
+
+// USANDO PALABRAS RESERVADAS EN LAS PROPIEDADES DE UN OBJETO
+
+let obj = {
+    for: 1,
+    let: 2,
+    return: 3,
+};
+
+alert(obj.for + obj.let + obj.return); //6
+
+//PROBAR SI EXISTE UNA PROPIEDAD EN EL OBJETO
+let u = {};
+
+alert(u.noSuchProperty === undefined); // true significa que no existe tal propiedad
+
+// EL OPERADOR IN TAMBINE SE PUEDE USAR PARA SABER SI EXISTE UNA PROPIEDAD O NO
+
+let us = {
+    name: "Alcea",
+    edad: 12,
+}
+//el nombre de la priedad va en comillas
+alert("edad" in us); //true
+alert("blabla" in us); //false
+
+//BUCLE FOR IN PARA RECORRER LAS CLAVES DE UN OBJETO
+
+let usua = {
+    name: "Alcea",
+    edad: 12,
+    isAdmin: true,
+};
+
+for (let  key in usua){
+    alert(key);// name, edad, isAdmin
+    alert(user[key]); //Alcea, 12, true
+}
+
