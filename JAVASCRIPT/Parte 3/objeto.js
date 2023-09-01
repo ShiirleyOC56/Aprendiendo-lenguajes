@@ -92,3 +92,57 @@ for (let  key in usua){
     alert(user[key]); //Alcea, 12, true
 }
 
+// TAREAS
+
+// Crear un objeto vacio
+let obj1 = {};
+// Agregar la propiedad name y un valor
+let person = {
+    name:"Jhon",
+};
+//Agregar la propiedad surname
+let person1 = {
+    name:"Jhon",
+    surname:"Smith",
+};
+//Cambiar el valor de name a Pete
+person1.name = "pete";
+//Eliminar la propiedad name
+delete person1.name;
+
+//Verificar vacios
+function isEmpty(obj){
+    for(let key in obj){
+        return false;
+    }
+    return true;
+}
+
+//suma de propiedades de u objeto
+
+let salaries = {
+    Jhon: 100,
+    Ann: 160,
+    Pete: 130,
+}
+let sum = 0;
+for (let key in salaries){
+    sum += salaries[key];
+}
+
+alert(sum);
+
+//multiplicar propiedades nuericas por 2
+let menu = {
+    width: 200,
+    height: 300,
+    title: "Mi menú"
+  };
+
+function multiplyNumeri(menu){
+    for (let key in menu){
+        if(typeof(menu[key])== 'number'){
+            menu[key]=menu[key]*2;
+        }
+    }
+}
