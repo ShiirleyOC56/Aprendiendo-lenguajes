@@ -17,3 +17,13 @@
 - La lectura de una propiedad no existente solo devuelve "undefined".
 - Para probar si una prpiedade existe se puede usar ".noSuchProperty".
 - Para recorrer las claves de un objeto se puede usar el bucle "for...in".
+
+## Referencias de objetos y copia
+- Los objetos son almacenados y copiados "por referencia".
+- Los primitivos: strings, number, boolean, etc.; son asignados y copiados “como un valor completo”.
+- Una variable no almacena el objeto mismo sino su “dirección en memoria”, en otras palabras “una referencia” a él.
+- Podemos usar cualquiera de las variables para acceder al objeto y modificar su contenido.
+- Dos objetos son iguales solamente si ellos son el mismo objeto.
+- Para clonar un objeto se puede usar el método Object.assign.
+
+
