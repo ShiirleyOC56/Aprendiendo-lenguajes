@@ -25,5 +25,10 @@
 - Podemos usar cualquiera de las variables para acceder al objeto y modificar su contenido.
 - Dos objetos son iguales solamente si ellos son el mismo objeto.
 - Para clonar un objeto se puede usar el método Object.assign.
+- En las clonaciones anidadas, las propiedades pueden ser referencias a otros objetos.
+- La llamada a structuredClone(object) clona el object con todas sus propiedadas anidadas.
+- El método structuredClone puede clonar la mayoría de los tipos de datos, como objetos, arrays, valores primitivos.
+
+
 
 

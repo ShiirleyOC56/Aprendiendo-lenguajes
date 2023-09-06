@@ -41,3 +41,42 @@ Object.assign(usuario, permissions1, permissions2);
 alert(usuario.name); // John
 alert(usuario.canView); // true
 alert(usuario.canEdit); // true
+
+//CLONACION SIMPLE
+let userb = {
+   name: "John",
+   age: 30
+ };
+ 
+ let clone = Object.assign({}, userb);
+ 
+ alert(clone.name); // John
+ alert(clone.age); // 30
+
+ //CLONACION ANIDADA
+ let clonacion_anidada = {
+   name: "Alcea",
+   sizes: {
+      height: 182,
+      window:50,
+   }
+ };
+
+ alert(clonacion_anidada.sizes.height); // 182
+
+ //COMO USAR EL structuredClone(object)
+ let ejem = {
+   name: "Alcea",
+   sizes: {
+      height: 182,
+      width: 50
+   }
+ };
+
+ let struc_clone = structuredClone(ejem);
+
+ alert( ejem.sizes === struc_clone.sizes); //false, objetos diferentes
+
+ // ahora user y clone están totalmente separados
+ ejem.sizes.width = 60;    // cambia una propiedad de un lugar
+ alert(struc_clone.sizes.width); // 50, no están relacionados
