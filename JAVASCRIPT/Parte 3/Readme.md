@@ -41,6 +41,14 @@
 - Las funciones de flecha son especiales: ellas no tienen su “propio” this. 
 - This no es vinculado. Puede ser usado en cualquier función, incluso si no es el método de un objeto.
 
+## Constructor, operador "new"
+- Su proposito principal es implementar código de creación de objetos re-utilizables.
+- La función constructora es técnicamente una función normal. Hay convenciones:
+  - La primera letra es mayuscula.
+  - Sólo deben ejecutarse con el operador "new". 
+- Si hay muchas lineas de codigo se puede agrupar en un constructor de funcion. **Nota** (codigo sin reutilizacion futura)
+- En el constructor se puede agregar a this no sólo propiedades, sino también métodos.
+
 
 
 
