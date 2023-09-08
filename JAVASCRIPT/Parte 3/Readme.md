@@ -39,6 +39,7 @@
 - Las acciones son representadas en JavaScript por funciones en las propiedades.
 - Para acceder al objeto, un método puede usar la palabra clave this.
 - Las funciones de flecha son especiales: ellas no tienen su “propio” this. 
+- This no es vinculado. Puede ser usado en cualquier función, incluso si no es el método de un objeto.
 
 
 
