@@ -35,7 +35,10 @@
 -  Las referencias salientes no importan. Solo los entrantes pueden hacer que un objeto sea accesible. 
 -  Es posible que toda la isla de objetos interconectados se vuelva inalcanzable y se elimine de la memoria.
 
-
+## Metodo del objeto "this"
+- Las acciones son representadas en JavaScript por funciones en las propiedades.
+- Para acceder al objeto, un método puede usar la palabra clave this.
+- Las funciones de flecha son especiales: ellas no tienen su “propio” this. 
 
 
 
