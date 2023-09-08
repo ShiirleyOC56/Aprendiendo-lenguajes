@@ -29,6 +29,14 @@
 - La llamada a structuredClone(object) clona el object con todas sus propiedadas anidadas.
 - El método structuredClone puede clonar la mayoría de los tipos de datos, como objetos, arrays, valores primitivos.
 
+## Recoleccion de basura
+-  Los valores “alcanzables” son aquellos que se pueden acceder o utilizar de alguna manera: Se garantiza que serán conservados en la memoria.
+-  Hay un proceso en segundo plano en el motor de JavaScript que se llama recolector de basura. Este proceso monitorea todos los objetos y elimina aquellos que se han vuelto inalcanzables.
+-  Las referencias salientes no importan. Solo los entrantes pueden hacer que un objeto sea accesible. 
+-  Es posible que toda la isla de objetos interconectados se vuelva inalcanzable y se elimine de la memoria.
+
+
+
 
 
 
