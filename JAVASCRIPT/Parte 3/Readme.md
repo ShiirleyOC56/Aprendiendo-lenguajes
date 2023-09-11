@@ -49,6 +49,11 @@
 - Si hay muchas lineas de codigo se puede agrupar en un constructor de funcion. **Nota** (codigo sin reutilizacion futura)
 - En el constructor se puede agregar a this no sólo propiedades, sino también métodos.
 
+## Encadenamiento opcional '?.'
+- Esta es una adición reciente al lenguaje.
+- El encadenamiento opcional ?. es una forma a prueba de errores para acceder a las propiedades anidadas de los objetos, incluso si no existe una propiedad intermedia.
+- El encadenamiento opcional ?. detiene la evaluación y devuelve undefined si el valor antes del ?. es undefined o null.
+
 
 
 
