@@ -58,5 +58,10 @@
 - obj?.[prop] – devuelve obj[prop] si obj existe, si no, undefined.
 - obj.method?.() – llama a obj.method() si obj.method existe, si no devuelve undefined.
 
-
+## Tipo Symbol
+- Solo dos de los tipos primitivos pueden servir como clave de propiedad de objetos: string o symbol.
+- El valor de “Symbol” representa un identificador único.
+- La descripción dentro de Symbl("etiqueta") es solamente una etiqueta que no afecta nada más.
+- Symbols no se autoconvierten a String.
+- Los Symbols nos permiten crear propiedades “ocultas” en un objeto, a las cuales ninguna otra parte del código puede accesar ni sobrescribir accidentalmente.
 
