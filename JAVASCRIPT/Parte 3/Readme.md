@@ -53,7 +53,10 @@
 - Esta es una adición reciente al lenguaje.
 - El encadenamiento opcional ?. es una forma a prueba de errores para acceder a las propiedades anidadas de los objetos, incluso si no existe una propiedad intermedia.
 - El encadenamiento opcional ?. detiene la evaluación y devuelve undefined si el valor antes del ?. es undefined o null.
-
+- No se debe abusar del encadenamiento opcional.
+- obj?.prop – devuelve obj.prop si obj existe, si no, undefined.
+- obj?.[prop] – devuelve obj[prop] si obj existe, si no, undefined.
+- obj.method?.() – llama a obj.method() si obj.method existe, si no devuelve undefined.
 
 
 
