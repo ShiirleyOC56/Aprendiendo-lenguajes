@@ -65,3 +65,12 @@
 - Symbols no se autoconvierten a String.
 - Los Symbols nos permiten crear propiedades “ocultas” en un objeto, a las cuales ninguna otra parte del código puede accesar ni sobrescribir accidentalmente.
 
+## Conversión de objeto a valor primitivo
+- Solo hay conversiones numéricas y de strings.
+- La conversión numérica ocurre cuando restamos objetos o aplicamos funciones matemáticas.
+  - Por ejemplo, los objetos de tipo Date (que se cubrirán en el capítulo Fecha y Hora) se pueden restar, y el resultado de date1 - date2 es la diferencia horaria entre dos fechas.
+- El algoritmo de conversión es:
+  - Llamar a obj[Symbol.toPrimitive](hint) si el método existe,
+  - En caso contrario, si la sugerencia es "string" intentar llamar a obj.toString() y obj.valueOf(), lo que exista.
+  - En caso contrario, si la sugerencia es "number" o "default" intentar llamar a obj.valueOf() y obj.toString(), lo que exista.
+
