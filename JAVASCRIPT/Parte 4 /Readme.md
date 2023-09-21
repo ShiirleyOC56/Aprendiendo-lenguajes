@@ -17,3 +17,14 @@
 - Un “object wrapper” (objeto envoltorio) que provee la funcionalidad extra y luego es destruido.
   - Los “object wrappers” son diferentes para cada primitivo y son llamados: String, Number, Boolean, Symbol y BigInt. Así, proveen diferentes sets de métodos.
 - Los primitivos especiales null y undefined son excepciones. No tienen “wrapper objects” correspondientes y no proveen métodos. En ese sentido son “lo más primitivo”.
+
+## Number
+- Hay 2 tipos de numeros:
+  - **Números de doble precisión de coma flotante**: Los números regulares que son almacenados con formato de 64-bit IEEE-754.
+  - **Números BigInt:** representan enteros de longitud arbitraria.
+- Aquí _ es “azúcar sintáctica”, hace el número más legible. El motor JavaScript simplemente ignora _ entre dígitos, así que es exactamente igual al “billion” de más arriba.
+- cortamos un número agregando la letra "e" y especificando la cantidad de ceros.
+- En los números negativos detrás de "e" significa una división por el 1 seguido de la cantidad dada de ceros.
+- Los números Hexadecimales son ampliamente usados en JavaScript para representar colores, codificar caracteres y muchas otras cosas.
+
+
