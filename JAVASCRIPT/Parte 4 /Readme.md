@@ -2,7 +2,7 @@
 
 ## Recursos
 
-(Tipos de datos)[https://es.javascript.info/data-types]
+[Tipos de datos](https://es.javascript.info/data-types)
 
 ## Métodos en tipos primitivos
 - Un primitivo:
