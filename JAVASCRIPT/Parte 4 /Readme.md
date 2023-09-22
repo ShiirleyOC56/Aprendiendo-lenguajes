@@ -26,5 +26,12 @@
 - cortamos un número agregando la letra "e" y especificando la cantidad de ceros.
 - En los números negativos detrás de "e" significa una división por el 1 seguido de la cantidad dada de ceros.
 - Los números Hexadecimales son ampliamente usados en JavaScript para representar colores, codificar caracteres y muchas otras cosas.
+- El método num.toString(base) devuelve la representación num en una cadena, en el sistema numérico con la base especificada.
+- Redondeo: Hay varias funciones incorporadas para el redondeo:
+  - **Math.floor:** Redondea hacia abajo: 3.1 se convierte en 3, y -1.1 se hace -2.
+  - **Math.ceil:** Redondea hacia arriba: 3.1 torna en 4, y -1.1 torna en -1.
+  - **Math.round:** Redondea hacia el entero más cercano: 3.1 redondea a 3, 3.6 redondea a 4, el caso medio 3.5 redondea a 4 también.
+  - **Math.trunc (no soportado en Internet Explorer):** Remueve lo que haya tras el punto decimal sin redondear: 3.1 torna en 3, -1.1 torna en -1.
+- 
 
 
