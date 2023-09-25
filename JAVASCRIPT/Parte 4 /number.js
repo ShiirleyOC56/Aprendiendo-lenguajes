@@ -112,3 +112,23 @@ alert( parseFloat('12.3.4') ); // 12.3, el segundo punto detiene la lectura
 //Hay situaciones en que parseInt/parseFloat devolverán NaN. Ocurre cuando no puedo encontrar dígitos:
 
 alert( parseInt('a123') ); // NaN, el primer símbolo detiene la lecturaS
+
+/* OTRAS FUNCIONES MATEMATICAS */
+
+//Math.random()
+//Devuelve un número aleatorio entre 0 y 1 (no incluyendo 1)
+
+alert( Math.random() ); // 0.1234567894322
+alert( Math.random() ); // 0.5435252343232
+alert( Math.random() ); // ... (cualquier número aleatorio)
+
+//Math.max(a, b, c...) y Math.min(a, b, c...)
+//Devuelven el mayor y el menor de entre una cantidad arbitraria de argumentos.
+
+alert( Math.max(3, 5, -10, 0, 1) ); // 5
+alert( Math.min(1, 2) ); // 1
+
+//Math.pow(n, power)
+//Devuelve n elevado a la potencia power dada
+
+alert( Math.pow(2, 10) ); // 2 elevado a la potencia de 10 = 1024

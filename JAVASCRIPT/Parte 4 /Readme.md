@@ -42,6 +42,12 @@
   - la conversión numérica usando un más + o Number() es estricta. Si un valor no es exactamente un número, falla. `alert( +"100px" ); // NaN`
   - Estas “leen” el número desde un string hasta que dejan de poder hacerlo.
   - La función parseInt devuelve un entero, mientras que parseFloat devolverá un punto flotante.
+- Otras funciones matemáticas:
+  -  Math que contiene una pequeña biblioteca de funciones matemáticas y constantes.
+     -  Math.random
+     -  Math.max -Math.min
+     -  Math.pow
+     -  Hay más funciones y constantes en el objeto Math, incluyendo trigonometría, que puedes encontrar en la documentación del objeto Math.
 
 
 
