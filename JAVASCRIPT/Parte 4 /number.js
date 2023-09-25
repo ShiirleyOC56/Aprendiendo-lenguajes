@@ -89,5 +89,15 @@ alert( num.toFixed(1) ); // "12.4"
 let num = 12.34;
 alert( num.toFixed(5) ); // "12.34000", con ceros agregados para dar exactamente 5 dígitos
 
+/* Tests: isFinite e isNaN */
+//isNaN(value) convierte su argumento a número entonces testea si es NaN:
 
+alert( isNaN(NaN) ); // true
+alert( isNaN("str") ); // true
+alert( NaN === NaN ); // false
 
+//isFinite(value) convierte su argumento a un número y devuelve true si es un número regular, no NaN/Infinity/-Infinity:
+
+alert( isFinite("15") ); // true
+alert( isFinite("str") ); // false, porque es un valor especial: NaN
+alert( isFinite(Infinity) ); // false, porque es un valor especial: Infinity
