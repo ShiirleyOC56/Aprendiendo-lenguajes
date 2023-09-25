@@ -101,3 +101,14 @@ alert( NaN === NaN ); // false
 alert( isFinite("15") ); // true
 alert( isFinite("str") ); // false, porque es un valor especial: NaN
 alert( isFinite(Infinity) ); // false, porque es un valor especial: Infinity
+
+/* PARSEINT - PARSEFLOAT */
+alert( parseInt('100px') ); // 100
+alert( parseFloat('12.5em') ); // 12.5
+
+alert( parseInt('12.3') ); // 12, devuelve solo la parte entera
+alert( parseFloat('12.3.4') ); // 12.3, el segundo punto detiene la lectura
+
+//Hay situaciones en que parseInt/parseFloat devolverán NaN. Ocurre cuando no puedo encontrar dígitos:
+
+alert( parseInt('a123') ); // NaN, el primer símbolo detiene la lecturaS

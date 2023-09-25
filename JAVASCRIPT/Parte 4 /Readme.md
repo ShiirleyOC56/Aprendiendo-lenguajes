@@ -32,6 +32,17 @@
   - **Math.ceil:** Redondea hacia arriba: 3.1 torna en 4, y -1.1 torna en -1.
   - **Math.round:** Redondea hacia el entero más cercano: 3.1 redondea a 3, 3.6 redondea a 4, el caso medio 3.5 redondea a 4 también.
   - **Math.trunc (no soportado en Internet Explorer):** Remueve lo que haya tras el punto decimal sin redondear: 3.1 torna en 3, -1.1 torna en -1.
-- 
+- Tests: isFinite e isNaN
+  - Infinity (y -Infinity) es un valor numérico especial que es mayor (menor) que cualquier otra cosa.
+  - NaN (“No un Número”) representa un error.
+  - Hay funciones especiales para chequearlos:
+    - **isNaN(value)** convierte su argumento a número entonces testea si es NaN.
+    - **isFinite(value) ** convierte su argumento a un número y devuelve true si es un número regular, no NaN/Infinity/-Infinity
+- parseInt y parseFloat:
+  - la conversión numérica usando un más + o Number() es estricta. Si un valor no es exactamente un número, falla. `alert( +"100px" ); // NaN`
+  - Estas “leen” el número desde un string hasta que dejan de poder hacerlo.
+  - La función parseInt devuelve un entero, mientras que parseFloat devolverá un punto flotante.
+
+
 
 
