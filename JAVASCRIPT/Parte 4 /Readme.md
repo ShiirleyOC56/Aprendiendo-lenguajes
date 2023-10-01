@@ -37,7 +37,7 @@
   - NaN (“No un Número”) representa un error.
   - Hay funciones especiales para chequearlos:
     - **isNaN(value)** convierte su argumento a número entonces testea si es NaN.
-    - **isFinite(value) ** convierte su argumento a un número y devuelve true si es un número regular, no NaN/Infinity/-Infinity
+    - **isFinite(value)** convierte su argumento a un número y devuelve true si es un número regular, no NaN/Infinity/-Infinity
 - parseInt y parseFloat:
   - la conversión numérica usando un más + o Number() es estricta. Si un valor no es exactamente un número, falla. `alert( +"100px" ); // NaN`
   - Estas “leen” el número desde un string hasta que dejan de poder hacerlo.
@@ -48,6 +48,16 @@
      -  Math.max -Math.min
      -  Math.pow
      -  Hay más funciones y constantes en el objeto Math, incluyendo trigonometría, que puedes encontrar en la documentación del objeto Math.
+
+## String
+- Los datos textuales son almacenados como strings (cadena de caracteres).
+- El formato interno para strings es siempre UTF-16, no está vinculado a la codificación de la página.
+- **Comillas:** Los strings pueden estar entre comillas simples, comillas dobles o backticks (acento grave).
+  - los “backticks” nos permiten además ingresar expresiones dentro del string envolviéndolos en ${…}
+  - usar backticks es que nos permiten extender en múltiples líneas el string
+- 
+
+
 
 
 
