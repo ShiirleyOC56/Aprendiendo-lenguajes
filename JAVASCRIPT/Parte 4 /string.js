@@ -19,3 +19,9 @@ let guestList = `Invitados:
  `;
  
 alert(guestList); // una lista de invitados, en múltiples líneas
+
+/* CARACTERES ESPECIALES */
+// salto de linea
+let guestList = 'Invitados:\n * Juan\n * Pedro\n * Maria';
+
+alert(guestList); // lista de invitados en múltiples líneas, igual a la de más arriba

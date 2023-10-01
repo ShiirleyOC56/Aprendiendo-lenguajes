@@ -55,7 +55,9 @@
 - **Comillas:** Los strings pueden estar entre comillas simples, comillas dobles o backticks (acento grave).
   - los “backticks” nos permiten además ingresar expresiones dentro del string envolviéndolos en ${…}
   - usar backticks es que nos permiten extender en múltiples líneas el string
-- 
+- **Caracteres especiales:** 
+  - carácter de nueva línea(\n):   crear strings de múltiples líneas usando comillas simple.
+  - 
 
 
 
