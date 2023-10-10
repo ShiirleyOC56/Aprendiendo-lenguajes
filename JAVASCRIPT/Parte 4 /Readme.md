@@ -57,7 +57,11 @@
   - usar backticks es que nos permiten extender en múltiples líneas el string
 - **Caracteres especiales:** 
   - carácter de nueva línea(\n):   crear strings de múltiples líneas usando comillas simple.
-  - 
+- todos los caracteres especiales empiezan con la barra invertida \. Se lo llama “carácter de escape”
+- La propiedad ‘length’ contiene el largo del string.
+- Para acceder a un carácter en la posición pos, se debe usar corchetes, [pos], o llamar al método str.at(pos). 
+- Los corchetes siempre devuelven undefined para índices negativos.
+- Podemos además iterar sobre los caracteres usando for..of.
 
 
 
