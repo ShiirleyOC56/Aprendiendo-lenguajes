@@ -61,10 +61,17 @@
 - La propiedad ‘length’ contiene el largo del string.
 - Para acceder a un carácter en la posición pos, se debe usar corchetes, [pos], o llamar al método str.at(pos). 
 - Los corchetes siempre devuelven undefined para índices negativos.
-- Podemos además iterar sobre los caracteres usando for..of.
+- Podemos además iterar sobre los caracteres usando for..of
+- Los métodos **toLowerCase()** y **toUpperCase()** cambian los caracteres a minúscula y mayúscula.
+- Buscando una subcadena de caracteres:
+  -  str.indexOf(substr, pos): Este busca un substr en str, comenzando desde la posición entregada pos, y retorna la posición donde es encontrada la coincidencia o -1 en caso de no encontrar nada.
+  -  str.lastIndexOf(substr, position): busca desde el final del string hasta el comienzo.
+  -  **Nota:** Existe un leve inconveniente con indexOf en la prueba if
+- El método más moderno str.includes(substr, pos) devuelve true o false si str contiene substr o no.
+- Existen 3 métodos en JavaScript para obtener un substring: substring, substr y slice. str.slice(comienzo [, final]).
 
+![Metodos para obtener substring](../images/string.png)
 
-
-
-
-
+-  los strings son comparados carácter por carácter en orden alfabético.
+   -  Una letra minúscula es siempre mayor que una mayúscula:
+   - Las letras con marcas diacríticas están “fuera de orden”: 
