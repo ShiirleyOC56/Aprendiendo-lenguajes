@@ -74,4 +74,13 @@
 
 -  los strings son comparados carácter por carácter en orden alfabético.
    -  Una letra minúscula es siempre mayor que una mayúscula:
-   - Las letras con marcas diacríticas están “fuera de orden”: 
+   - Las letras con marcas diacríticas están “fuera de orden”.
+## Array
+- Existe una estructura llamada Array (llamada en español arreglo o matriz/vector) para almacenar colecciones ordenadas.
+- Los elementos del array están numerados comenzando desde cero.
+- Se puede reemplazar o agregar un elemento.
+- También podemos usar alert para mostrar el array completo.
+- Un array puede almacenar elementos de cualquier tipo.
+
+
+
