@@ -81,6 +81,12 @@
 - Se puede reemplazar o agregar un elemento.
 - También podemos usar alert para mostrar el array completo.
 - Un array puede almacenar elementos de cualquier tipo.
-
-
+- Un array puede almacenar elementos de cualquier tipo.
+- La “coma final” hace más simple insertar y remover items, porque todas la líneas se vuelven similares.
+- Una cola es uno de los usos más comunes de un array.
+  - push inserta un elemento al final.
+  - shift obtiene el elemento del principio, avanzando la cola, y así el segundo elemento se vuelve primero.
+- La estructura de datos llamada pila.Ella soporta dos operaciones:
+  - push agrega un elemento al final.
+  - pop toma un elemento desde el final.
 

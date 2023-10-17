@@ -132,3 +132,6 @@ alert( Math.min(1, 2) ); // 1
 //Devuelve n elevado a la potencia power dada
 
 alert( Math.pow(2, 10) ); // 2 elevado a la potencia de 10 = 1024
+
+
+s
